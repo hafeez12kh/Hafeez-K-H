@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Web Developer & Ethical Hacker</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0d1117;
+      color: #e6edf3;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 900px;
+      background-color: #161b22;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      border-bottom: 2px solid #30363d;
+      padding-bottom: 20px;
+    }
+
+    .header img {
+      width: 130px;
+      height: 130px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 25px;
+      border: 3px solid #238636;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 2em;
+      color: #58a6ff;
+    }
+
+    .header p {
+      color: #8b949e;
+      margin: 5px 0;
+    }
+
+    section {
+      margin-top: 30px;
+    }
+
+    h2 {
+      color: #58a6ff;
+      border-bottom: 2px solid #238636;
+      padding-bottom: 5px;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    ul li {
+      padding: 6px 0;
+    }
+
+    a {
+      color: #58a6ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .skills li::before {
+      content: "• ";
+      color: #238636;
+    }
+
+    .footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.9em;
+      color: #8b949e;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <!-- Replace photo.jpg with your own image -->
+      <img src="" alt="Profile Photo" />
+      <div>
+        <h1>Your Name</h1>
+        <p>💻 Web Developer & 🛡️ Ethical Hacker</p>
+        <p>
+          📧 <a href="mailto:youremail@example.com">youremail@example.com</a> |
+          📞 +91 98765 43210 |
+          🌐 <a href="https://github.com/yourusername">github.com/yourusername</a>
+        </p>
+      </div>
+    </div>
+
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Passionate Web Developer and Ethical Hacker with expertise in front-end design,
+        web security, and penetration testing. Skilled at developing responsive web applications
+        while ensuring strong cybersecurity standards.
+      </p>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <ul>
+        <li><strong>MCA (Master of Computer Applications)</strong> – XYZ University (2023–2025)</li>
+        <li><strong>B.Sc Computer Science</strong> – ABC College (2020–2023)</li>
+        <li><strong>Higher Secondary Education</strong> – Govt. HSS (2018–2020)</li>
+      </ul>
+    </section>
+
+    <section class="skills">
+      <h2>Technical Skills</h2>
+      <ul>
+        <li>Web Technologies: HTML, CSS, JavaScript, PHP</li>
+        <li>Programming: Python, Java, C</li>
+        <li>Database: MySQL, MongoDB</li>
+        <li>Security Tools: Nmap, Wireshark, Burp Suite, Metasploit</li>
+        <li>Operating Systems: Linux (Kali), Windows</li>
+        <li>Version Control: Git, GitHub</li>
+      </ul>
+    </section>
+
+    <section class="experience">
+      <h2>Experience</h2>
+      <ul>
+        <li><strong>Cybersecurity Intern</strong> – CyberTech Labs (June 2024 – Sept 2024)
+          <br>Assisted in penetration testing, vulnerability scanning, and network security analysis.
+        </li>
+        <li><strong>Freelance Web Developer</strong> (2023 – Present)
+          <br>Developed responsive and secure websites for clients using modern front-end technologies.
+        </li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>Secure Login System</strong> – Created a PHP-based web app with SQL injection prevention and encryption.</li>
+        <li><strong>Personal Portfolio Website</strong> – Built and deployed using HTML, CSS, and GitHub Pages.</li>
+        <li><strong>Penetration Testing Report</strong> – Conducted ethical hacking simulation and documented vulnerabilities.</li>
+      </ul>
+    </section>
+
+    <section class="certifications">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Certified Ethical Hacker (CEH) – EC-Council</li>
+        <li>Google Cybersecurity Certificate</li>
+        <li>GitHub Web Developer Badge</li>
+      </ul>
+    </section>
+
+    <section class="languages">
+      <h2>Languages</h2>
+      <ul>
+        <li>English</li>
+        <li>Malayalam</li>
+        <li>Hindi</li>
+      </ul>
+    </section>
+
+    <div class="footer">
+      © 2025 Your Name | Designed with 💻 & ⚡ by You
+    </div>
+  </div>
+</body>
+</html>
